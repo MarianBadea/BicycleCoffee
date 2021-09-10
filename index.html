@@ -3,6 +3,7 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Bicycle Coffee</title>
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
         <link rel="shortcut icon" href="images/favicon.png">
         <link rel="stylesheet" href="style.css">
     </head>
@@ -34,8 +35,23 @@
         </div>
     </header>
 
-    <div id="main-banner">
-        <img src="images/banner.jpg" alt="Bun venit la Biycle Coffee">
+    <div class="carousel-container">
+        <i class="fas fa-chevron-left" id="prevBtn"></i>
+        <i class="fas fa-chevron-right" id="nextBtn"></i>
+        <a href="#home-menu" class="downBtn"><i class="fal fa-chevron-down"></i></a>
+        <div class="carousel-slide">
+            <div></div>
+            <img src="images/banner4.jpg" alt="banner" id="lastClone">
+            <img src="images/banner.jpg" alt="banner">
+            <img src="images/banner2.jpg" alt="banner">
+            <img src="images/banner3.jpg" alt="banner">
+            <img src="images/banner4.jpg" alt="banner">
+            <img src="images/banner.jpg" alt="banner" id="firstClone">
+        </div>
+
+       <!-- <button id="prevBtn">Prev</button>
+        <button id="nextBtn">Next</button>-->
+
     </div>
 
     <div class="wrapper">
